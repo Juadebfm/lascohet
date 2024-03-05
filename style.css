@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+
+:root {
+  --text-blue: #00a1ff;
+  --main-red: #950000;
+  --main-black: #232323;
+  --btn-blue: #00a1ff;
+
+  --lexend: "Lexend", sans-serif;
+
+  --font-sm: 14px;
+  --font-normal: 16px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: var(--lexend);
+  font-size: var(--font-normal);
+  color: inherit;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: var(--lexend);
+}
+
+/* NAV */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 1.8rem 6rem;
+}
+
+nav .logos img:nth-child(2) {
+  display: none;
+}
+
+nav .logos img:nth-child(1) {
+  width: 187px;
+  height: 86px;
+}
+
+nav .bx-menu {
+  font-size: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+nav .nav_btns {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+nav .nav_btns button {
+  font-size: var(--font-sm);
+}
+
+nav .nav_btns button:nth-child(2) {
+  width: 229px;
+  height: 38px;
+  background-color: var(--main-red);
+  color: #fff;
+  border-radius: 3.5px;
+  transition: all 0.2s ease-in-out;
+}
+
+nav .nav_btns button:nth-child(2):hover {
+  box-shadow: 0px 0px 5px 2px #80808069;
+}
+
+nav .nav_btns button:nth-child(1) {
+  width: 139px;
+  height: 38px;
+  color: var(--main-red);
+  transition: all 0.2s ease-in-out;
+}
+
+/* NAV */
